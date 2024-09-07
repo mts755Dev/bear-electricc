@@ -21,7 +21,6 @@ function HeroSection() {
               <li className="areas-list-item">Central Florida</li>
             </ul>
           </div>
-          <p className="areas-text-2"></p>
           <div className="call-us-cont">
             <h1 className="call-us-now">Contact Us:</h1>
             <a className="number" href="tel:863-329-BEAR">863-329-BEAR</a>

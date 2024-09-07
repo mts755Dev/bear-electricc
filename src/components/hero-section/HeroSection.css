@@ -54,6 +54,7 @@
 
 .call-us-cont {
   display: flex;
+  color: black;
   flex-direction: column;
   align-items: flex-start;
   padding-top: 10px;
@@ -93,13 +94,13 @@
 }
 
 .number {
-  color: black;
-  font-size: 1.75rem;
+  color: #fff;
+  font-size: 1.5rem;
   text-decoration: none;
 }
 
 .mail {
-  color: black;
+  color: #fff;
   font-size: 1.5rem;
   text-decoration: none;
 }
