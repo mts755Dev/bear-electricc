@@ -14,14 +14,14 @@ function ContactSection({ isHomePage }) {
           </div>
           <div className="contact-details-cont">
             <div className="contact-details">
+              <div className="email cont">
+                <i className="fa fa-envelope"></i>
+                <a href="mailto:service@bearelectricllc.com">service@bearelectricllc.com</a>
+              </div>
               <div className="phone cont">
                 <i className="fa fa-phone-alt"></i>
                 <a href="tel:863-329-2327">863-329-BEAR,</a>
                 <a href="tel:863-329-2327">863-329-2327</a>
-              </div>
-              <div className="email cont">
-                <i className="fa fa-envelope"></i>
-                <a href="mailto:service@bearelectricllc.com">service@bearelectricllc.com</a>
               </div>
               <div>
               <p> <FaLocationArrow /> 1732 Athens Ct. Lakeland, FL 33803</p>
