@@ -1,7 +1,7 @@
 import React from 'react';
 import './ContactSection.css';
 import { Link } from 'react-router-dom';
-import { FaFacebookSquare, FaLocationArrow } from 'react-icons/fa';
+import { FaFacebookSquare, FaLocationArrow, FaInstagramSquare } from 'react-icons/fa';
 
 function ContactSection({ isHomePage }) {
   return (
@@ -34,6 +34,14 @@ function ContactSection({ isHomePage }) {
                   aria-label='Facebook'
                 >
                   <FaFacebookSquare />
+                </Link>
+                <Link
+                  className='social-link'
+                  to={'//www.instagram.com/bearelectric_/'}
+                  target='_blank'
+                  aria-label='Instagram'
+                >
+                  <FaInstagramSquare />
                 </Link>
               </div>
             </div>
